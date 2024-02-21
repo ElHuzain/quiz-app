@@ -5,8 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        background: "var(--bg-clr)",
+        card: "var(--card-clr)",
+        success: "var(--success-clr)",
+        failure: "var(--failure-clr)",
+        foreground: "var(--fg-clr)"
+      }
+    },
   },
   plugins: [],
 }
-

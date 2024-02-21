@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --bg-clr: black;
+    --card-clr: #0E0E0E;
+    --success-clr: #6EE436;
+    --failure-clr: #ED3737;
+    --fg-clr: #fff;
+}
+
+.answer-slide-in {
+    animation: answer-slide-in .5s forwards;
+}
+
+@keyframes answer-slide-in {
+    0% {
+        transform: translateX(10px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animation-fade-up {
+    animation: fade-up .4s forwards;
+}
+
+@keyframes fade-up {
+    0% {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

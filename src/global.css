@@ -41,3 +41,7 @@
         opacity: 1;
     }
 }
+
+.focusable-label:focus-within{
+    outline: 3px solid var(--fg-clr);
+}

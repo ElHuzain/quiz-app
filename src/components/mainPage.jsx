@@ -36,7 +36,7 @@ const MainPage = () => {
                     </li>
                     <li className={twMerge(ListStyle, AnimateUp, "delay-[300ms]")}>
                         <div aria-hidden className="aspect-square flex items-center justify-center p-3 text-xl rounded-full bg-background">❓</div>
-                        <h2>30 Questions</h2>
+                        <h2>10 Questions</h2>
                     </li>
                     <li className={twMerge(ListStyle, AnimateUp, "delay-[500ms]")}>
                         <div aria-hidden className="aspect-square flex items-center justify-center p-3 text-xl rounded-full bg-background">🎯</div>

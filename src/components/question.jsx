@@ -20,7 +20,7 @@ const Question = () => {
         <section className="grid animation-fade-up grid-cols-1 md:grid-cols-[300px_300px] bg-card rounded-md p-8 gap-8">
 
             <div className="max-w-[800px] w-full">
-                <h1 className="text-lg font-bold">Question {currentQuestion}) {questionData.question}</h1>
+                <h1 className="text-lg font-bold">Question {currentQuestion + 1}) {questionData.question}</h1>
                 <p className="text-background px-2 py-1 mt-2 rounded-md bg-foreground w-fit text-sm">{questionData.degree} Degrees</p>
             </div>
 
